@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form 3</title>
+    <link rel="stylesheet" href="css/form_3_style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="page">
+        <div class="container">
+            <div class="form">
+                <div class="account-input">
+                    <div class="text">
+                        <span class="acc-txt">Account</span>
+                    </div>
+                    <div class="full-name-field field-have-icon">
+                        <span class="left-field">
+                            <i class="fa-solid fa-user mini-icon" style="color: #bababa;"></i>
+                            <div class="splash-bar"></div>
+                        </span>
+                        <input type="text" class="full-name_input" placeholder="Full Name">
+                    </div>
+                    <div class="email-field field-have-icon">
+                        <span class="left-field">
+                            <i class="fa-regular fa-envelope mini-icon" style="color: #bababa;"></i>
+                            <div class="splash-bar"></div>
+                        </span>
+                        <input type="email" class="email_input" placeholder="Email Address">
+                    </div>
+                    <div class="password-field field-have-icon">
+                        <span class="left-field">
+                            <i class="fa-solid fa-key mini-icon" style="color: #bababa;"></i>
+                            <div class="splash-bar"></div>
+                        </span>
+                        <input type="password" class="password_input" placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="self-info-input">
+                    <div class="self-flex-box">
+                        <div class="date-of-birth_input">
+                            <div class="text">
+                                <span class="dob-txt">Date of Birth</span>
+                            </div>
+                            <input type="number" class="day-input" min="1" placeholder="DD">
+                            <input type="number" class="month-input" min="1" placeholder="MM">
+                            <input type="number" class="year-input"  min="1900" placeholder="YYYY">
+                        </div>
+                        <div class="gender-input">
+                            <div class="text">
+                                <span class="gender-txt">Gender</span>
+                            </div>
+                            <input type="text" class="male-input" placeholder="Male">
+                            <input type="text" class="female-input" placeholder="Female">
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-details">
+                    <div class="text">
+                        <span class="payment-txt">Payment Details</span>
+                    </div>
+                    <div class="payment-miniform">
+                        <div class="payment-buttons">
+                            <button class="credit-card_button pay-button">
+                                <i class="fa-brands fa-cc-visa" style="color: #bababa;"></i>
+                                <span class="credit-card_icon"></span>
+                                <span class="credit-card-text">Credit Card</span>
+                            </button>
+                            <button class="paypal_button pay-button">
+                                <i class="fa-brands fa-cc-paypal" style="color: #bababa;"></i>
+                                <span class="paypal_icon"></span>
+                                <span class="paypal-text">Paypal</span>
+                            </button>
+                        </div>
+                        <div class="payment-info">
+                            <div class="card-number">
+                                <i class="fa-regular fa-credit-card" style="color: #ababab;"></i>
+                                <input type="number" class="card-number_input-field" min="0" placeholder="Card Number">
+                            </div>
+                            <div class="card-sub-info">
+                                <div class="card-cvc">
+                                    <i class="fa-solid fa-user" style="color: #bababa;"></i>
+                                    <input type="text" class="card-cvc-field" placeholder="Card CVC">
+                                </div>
+                                <div class="select-date">
+                                    <select name="select-month" id="select-month-lists" class="select-month">
+                                        <option value="jan">Jan 01</option>
+                                        <option value="feb">Feb 02</option>
+                                        <option value="march">March 03</option>
+                                        <option value="april">April 04</option>
+                                        <option value="may">May 05</option>
+                                        <option value="june">June 06</option>
+                                        <option value="july">July 07</option>
+                                        <option value="aug">August 08</option>
+                                        <option value="sep">September 09</option>
+                                        <option value="oct">October 10</option>
+                                        <option value="nov">November 11</option>
+                                        <option value="dec">December 12</option>
+                                    </select>
+                                    <input type="number" min="1900" max="2099" step="1" value="2016" class="select-year"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms-and-conditions">
+                    <div class="text">
+                        <span class="terms-txt">Terms and Conditions</span>
+                    </div>
+                    <div class="terms-checkbox">
+                        <input type="checkbox" class="checkbox-if-accept" value="">
+                        <span class="terms-text">I accept the terms and condition for signing up to this service, and hereby comfirm I have read the privacy policy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

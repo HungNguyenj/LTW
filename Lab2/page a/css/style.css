@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    color: black;
+    font-size: 14px ;
+}
+
+a, p {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#section_normal_1 {
+    background-color: white;
+    height: 80px;
+    border-bottom: 4px #e5e5e5 solid;
+    margin-top: 18px;
+}
+
+#section_normal_1 .alpha {
+    max-width: 165px;
+    margin-top: 16px;
+}
+#section_normal_1 .sixteen {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_normal_1 .omega {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 0;
+
+}
+
+#section_normal_1 .omega .htext_style {
+    color: #c4c4c4;
+    margin-top: 8px;
+    margin-right: 14px;
+}
+
+#section_normal_1 .omega .social_button {
+    margin: auto 2px;
+}
+
+#section_normal_4_2 {
+    background-color: #333333;
+
+}
+
+#section_normal_4_2 .sixteen {
+    display: flex;
+    padding-top: 85px;
+    padding-bottom: 98px;
+}
+
+#section_normal_4_2 .alpha img {
+    max-width: 540px;
+    margin-right: 52px;
+}
+
+#section_normal_4_2 .sixteen .omega .big_text {
+    color: #2dc0e8;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#section_normal_4_2 .sixteen .omega .big_title {
+    color: white;
+    font-size: 44px;
+    font-weight: 800;
+    margin: 20px 0 28px 0;
+}
+
+#section_normal_4_2 .sixteen .omega .normal_text {
+    color: #878787;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+#section_normal_4_2 .sixteen .omega .pix_button {
+    background-color: #2dc0e8;
+    padding: 14px 20px;
+    box-shadow: 2px 2px 1px #0552a8;
+    border-radius: 4px;
+}
+#section_normal_4_2  .sixteen  .omega  span {
+    color: white;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+#section_normal_6 {
+    height: 338px;
+    background-color: #eeeeee;
+    border-bottom: 4px #dddddd solid;
+}
+
+#section_normal_6  .pix_builder_bg .L1_style {
+    font-size: 22px;
+    color: #696969;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+#section_normal_6 .pix_builder_bg .L2_style {
+    text-align: center;
+    font-size: 16px;
+    color: #b3b3b3;
+    margin: 0 0 10px;
+}
+
+.stbox {
+    display: flex;
+    height: auto;
+    max-width: 420px;
+    border-radius: 4px;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 2px 2px 1px #dedede;
+}
+#section_normal_6 .subflex {
+    display: flex;
+    margin-top: 68px;
+    justify-content: space-between;
+}
+
+#section_normal_6 .box_1 {
+    display: flex;
+    color: #9a9a9a;
+    margin-right: 20px;
+}
+#section_normal_6 .box_2 {
+    display: flex;
+    color: #9a9a9a;
+}
+
+#section_normal_6 .b_style {
+    width: 120px;
+    height: inherit;
+    background-color: #f5f5f5;
+    text-align: center;
+
+}
+#section_normal_6 .b_style .logo_style{
+    border-radius: 50px;
+    margin: 32px 0;
+    width: 50px;
+}
+#section_normal_6 .txt_style {
+    margin-left: 18px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+}
+#section_normal_6 .txt_style  .editContent {
+    font-size: 14px;
+    line-height: 24px;
+}
+#section_normal_6 .txt_style .stars_span {
+    color:  #69acfc;
+    display: flex;
+}
+#section_normal_6 .stars_span img {
+    margin-right: 4px;
+}
+
+#section_agency_5 {
+    max-height: 566px;
+}
+#section_agency_5 .foot_st .f1_style .pix_text {
+    color: #8ab794 ;
+    font-size: 24px;
+    margin-top: 78px;
+    margin-bottom: 46px;
+}
+
+#section_agency_5 .foot_st .f2_style .pix_text {
+    color: #aeaeae;
+    font-size: 15px;
+    max-width: 450px;
+    text-align: center;
+}
+#section_agency_5 .second_link {
+    height: 40px;
+    width: 160px;
+    border: 2px green solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+#section_agency_5 .second_link a {
+    color: green;
+    font-weight: bold;
+}
+#section_agency_5 .editContent{
+    display: flex;
+    justify-content: center;
+}
+
+#section_agency_5 .sixteen {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#section_agency_5 .foot_st .rights_st  {
+    color: #b4b4b4;
+    margin-bottom: 4px;
+}
+#section_agency_5 .foot_st .pixfort_st {
+    color:#609d6d;
+}
+
+
+#section_agency_5 .foot_st .pix_inline_block {
+    display: flex;
+    flex-direction:  row-reverse;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+#section_agency_5 .foot_st .social_button {
+    margin: 0 4px;
+}
+
+.container {
+    margin: auto 330px;
+
+}

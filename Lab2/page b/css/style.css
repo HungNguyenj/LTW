@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+a, p {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a span {
+    color: white;
+}
+
+ul {
+    list-style-type: none;list-style-type: none;
+}
+
+#section_text_2 {
+    height: 100px;
+}
+
+#section_text_2 .alpha img {
+    width: 140px;
+    margin-top: 28px;
+}
+
+#section_text_2 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_text_2 .omega {
+    margin-top: 24px;
+}
+#section_text_2 .omega .pix_button {
+    padding: 10px 20px;
+}
+
+#section_header_1 {
+    background-color: #ffffff;
+    height:70px;
+}
+
+#section_slider {
+    background-color: #eeeeee;
+    height: 555px;
+}
+#section_slider img {
+    width: 978px;
+    border-radius: 4px;
+    margin: 84px 0;
+}
+
+.carousel-indicators {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    right: -40px;
+    top: 90px;
+}
+
+.ol {
+    list-style-type: none;
+}
+
+#section_gym_4 {
+    height: 460px;
+}
+
+#section_intro_title {
+    height: 480px;
+    padding: 16px 0 0;
+}
+
+#section_intro_title .container {
+    display:  flex;
+}
+
+#section_intro_title .container .one-third {
+    height: 412px;
+    width: 308px;
+    background-color: #fff;
+    margin: 0 20px;
+    box-shadow: 0px 1px 3px 1px #949393;
+    border-radius: 2px;
+}
+
+#section_intro_title li {
+    text-align: center;
+    margin: 24px 0;
+}
+#section_intro_title .container .pix_button {
+    padding: 12px 16px;
+    align-content: flex-end;
+}
+
+#section_party_3 {
+    height: 580px;
+    padding-top: 74px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+}
+
+#hidden_pix_15 {
+    display: none;
+}
+
+#section_party_4 {
+    height: 66px;
+    background-color: #151515;
+}
+
+#section_party_4 .container .sixteen {
+    display: flex;
+    justify-content: space-between;
+}
+#section_party_4 .container .alpha {
+    margin-top: 20px;
+}
+
+.rights_st {
+    color: #949393;
+    font-size: 16px;
+    margin-top: 100px;
+}
+.rights_st .pixfort_st {
+    color: #0080f6;
+    font-weight: bold;
+}
+.socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+
+.likes_st {
+    margin: 22px;
+    color: #949393;
+}
+
+.text_input {
+    height: auto;
+    width: 468px;
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    text-align: center;
+    box-shadow: 0px 0px 1px 0px #9c9495;
+}
+.text_input .headtext_style {
+    margin-top: 54px;
+}
+.segment {
+    width: 100px;
+    border: 4px #1c8ff5 solid;
+    margin: 28px auto 28px;
+}
+.subtext_style {
+    color: #767472;
+    font-size: 18px;
+    padding: 0 80px;
+}
+.contact_st {
+    background-color: #151515;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 5px;
+}
+.contact_st input {
+    width: 425px;
+    height: 54px;
+    border-radius: 4px;
+    border: none;
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.subscribe_btn {
+    width: 425px;
+    height: 54px;
+    background-image: linear-gradient(0deg, #206dc7, #5593e5);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 8px 0 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.headtext_style {
+    color: white;
+}
+.headtext_style .pix_text {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.top_padding {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gym_st .editContent {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 28px;
+}
+.gym_text .editContent {
+    color: #9d9d9d;
+    margin-bottom: 24px;
+}
+
+.link_3_btn {
+    background-color: #ff8833;
+    border-radius: 2px;
+    max-width: 105px;
+    height: 26px;
+    align-self: center;
+    padding-top: 10px;
+    margin-top: 14px;
+}
+
+.part_st {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_3_btn a {
+    color: white;
+    padding:  25px;
+
+}
+
+
+.logo_style {
+    border-radius: 120px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.text_gym_style {
+    font-size: 15px;
+    text-align: center;
+    width: 210px;
+    height: auto;
+
+}
+
+ul.bottom-icons {
+    display:  flex;
+}
+ul.bottom-icons li{
+    margin: 8px;
+}
+
+.navbar-left {
+    display: flex;
+
+}
+
+.navbar-left a {
+    color: #9c9495;
+    margin: 0 16px;
+}
+
+.navbar {
+
+}
+
+.containerss {
+    display:  flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-header {
+    display: none;
+}
+
+.container {
+    margin: auto 300px;
+}
+
+.light_gray_bg {
+    background-color: #f3f3f3;
+}
+
+.padding_left_10 {
+    padding-left: 10px;
+}
+
+.orange_bg {
+    background-color: #f77825 ;
+}
+
+.btn_normal {
+
+}
+
+.pix_button {
+    border-radius: 2px;
+}
+.bold_text {
+    font-weight: bold;
+}
+
+.right_socials {
+    margin-top: 4px;
+}
+
+.light_gray {
+    color: #a69f9e;
+}
+.blue_text {
+    color: #33c2e9;
+}
+.big_title {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.editContent {
+    text-align: center;
+}
+.margin_bottom_10 {
+    margin-bottom: 10px;
+}
+.orange {
+    color: #f77825;
+}
+.padding_bottom_60{
+    padding-bottom: 60px;
+}
+.pix_text {
+
+}
+.light_gray_bg {
+    background-color: lightgray;
+}
+.flat_pricing_list {
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.flat_pricing {
+    text-align: center;
+    height: auto;
+}
+
+.blue_bg {
+    background-color: #2dc0e8;
+}
+
+/*slider show*/
+
+.carousel-caption {
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    text-align: start;
+    font-size: 20px;
+
+}
+
+.right {
+    position: absolute;
+    top: 250px;
+    right: -49px;
+}
+
+.left {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+.carousel-control {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: 1px #fff solid;
+}
+
+.item {
+    height: auto;
+    position: relative;
+}
+.carousel {
+    position: relative;
+}
+
+.badge  {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
